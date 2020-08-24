@@ -8,3 +8,656 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
+
+.wrapper {
+    max-width: 1080px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* HEADER STYLES  */
+
+header {
+    background-image: url(./Panda_Sanctuary/assets/header-image.png);
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh;  
+}
+
+h1 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400; 
+    font-size: 68.8px; 
+    line-height: 63.7px; 
+    color: #fff; 
+    margin-top: 0; 
+    letter-spacing: 0.8px; 
+    width: 40%;  
+    padding-top: 80px; 
+    float: left; 
+    position: absolute;
+}
+
+.top p {
+    font-family: 'Offside', cursive;
+    font-weight: 400; 
+    font-size: 20px; 
+    line-height: 20px; 
+    color: #fff;
+    width: 10%; 
+    float: left; 
+}
+
+.top nav {
+    float: right; 
+}
+
+.top li {
+    display: inline-block; 
+    text-shadow: 4px 4px 8px #000; 
+}
+
+.top ul {
+    list-style: none; 
+}
+
+.top a {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700; 
+    font-size: 20px; 
+    line-height: 29px; 
+    color: #fff; 
+    text-decoration: none; 
+    position: relative;
+    padding: 12px; 
+}
+
+.firstIcons {
+    float: right; 
+    list-style: none; 
+    font-size: 20px; 
+    text-align: center;
+    margin-top: 0; 
+    margin-right: 50px; 
+    line-height: 40px; 
+}
+
+.firstIcons a {
+    color: #FFF; 
+    padding: 10px 0px; 
+}
+
+header .fa {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 1.5rem;
+    visibility: hidden;
+}
+
+/* GALLERY STYLES  */
+
+.gallery,
+.park {
+    background-color: #D6F1E4; 
+}
+
+.park {
+    padding-bottom: 100px;
+    margin-top: 0px; 
+}
+
+.gallery h2 {
+    font-family: 'Offside', cursive;
+    font-weight: 400; 
+    font-size: 42px; 
+    color: #116500;
+    text-align: center; 
+    margin-top: 0; 
+    padding-top: 80px;  
+}
+
+img {
+    width: 100%; 
+}
+
+.gallery ul {
+    padding: 0; 
+}
+.gallery li {
+    float: left; 
+    width: calc((100% - 70px) / 3); 
+    margin-right: 30px; 
+    margin-bottom: 40px; 
+    margin-top: 50px; 
+    list-style: none; 
+}
+
+.gallery li:nth-of-type(3n) {
+    margin-right: 0; 
+}
+
+.aboutImgContainer,
+.aboutContentContainer {
+    float: left; 
+}
+
+.aboutImgContainer {
+    width: calc(31% - 40px); 
+    margin-right: 30px;
+    margin-top: 50px;  
+}
+
+.aboutContentContainer {
+    width: 69%; 
+}
+
+.aboutContentContainer h3 {
+    font-family: 'Offside', cursive;
+    font-weight: 400; 
+    font-size: 42px; 
+    color: #116500;
+    margin-bottom: 0px;
+    margin-top: 50px; 
+}
+
+.aboutContentContainer p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400; 
+    font-size: 20px; 
+    line-height: 30px; 
+    color: #000; 
+    letter-spacing: 0.2px; 
+    margin-top: 20px;
+    margin-bottom: 40px;  
+}
+
+.button {
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Offside', cursive;
+    font-weight: 400; 
+    font-size: 20px; 
+    line-height: 29px; 
+    background: #116500;
+    padding: 10px 20px; 
+}
+
+/* COLLAGE STYLES  */
+
+.collage {
+    background-color: #213C28; 
+}
+
+.bbText,
+.bobbyBella {
+    float: left; 
+}
+
+.bbText {
+    width: calc(50% - 30px); 
+    margin-right: 30px;
+    margin-top: 40px; 
+}
+
+.bobbyBella {
+    width: 50%; 
+    margin-bottom: 0px; 
+}
+
+.bbText h4 {
+    font-family: 'Offside', cursive;
+    font-weight: 400; 
+    font-size: 42px; 
+    color: #FFF;
+    margin-bottom: 0px;
+    margin-top: 50px; 
+}
+
+.bbText p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400; 
+    font-size: 20px; 
+    line-height: 30px; 
+    color: #FFF; 
+    letter-spacing: 0.2px; 
+    margin-top: 20px;
+    margin-bottom: 40px; 
+    margin-right: 30px; 
+}
+
+.buttonTwo {
+    text-decoration: none;
+    color: #116500;
+    font-family: 'Offside', cursive;
+    font-weight: 400; 
+    font-size: 20px; 
+    line-height: 29px; 
+    background: #FFF;
+    padding: 10px 20px; 
+}
+
+.happy,
+.marco {
+    float: left; 
+}
+
+.happy {
+    width: 50%; 
+}
+
+.marco {
+    width: 50%;
+    padding-left: 80px; 
+    margin-top: 40px; 
+}
+
+.marco p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400; 
+    font-size: 20px; 
+    line-height: 30px; 
+    color: #FFF; 
+    letter-spacing: 0.2px; 
+    margin-top: 20px;
+    margin-bottom: 40px; 
+    margin-right: 30px; 
+}
+
+.marco h4 {
+    font-family: 'Offside', cursive;
+    font-weight: 400; 
+    font-size: 42px; 
+    color: #FFF;
+    margin-bottom: 0px;
+    margin-top: 50px; 
+}
+
+.buttonThree {
+    text-decoration: none;
+    color: #116500;
+    font-family: 'Offside', cursive;
+    font-weight: 400; 
+    font-size: 20px; 
+    line-height: 29px; 
+    background: #FFF;
+    padding: 10px 20px; 
+}
+
+/* ICONS STYLES  */
+
+.icons {
+    background-color: #D6F1E4; 
+    text-align: center; 
+}
+
+.littleIcons ul {
+    margin: 0px; 
+    padding: 0px; 
+}
+
+.littleIcons li {
+    list-style: none; 
+    display: inline-block;
+    padding: 100px 100px 0px 100px; 
+}
+
+.littleIcons a {
+    color: #2C2D2C; 
+    font-size: 50px; 
+}
+
+.iconNames {
+    text-align: center; 
+    padding: 0px; 
+    margin-top: 5px;
+    margin-bottom: 0px;  
+}
+
+
+.iconNames li {
+    list-style: none; 
+    display: inline-block; 
+    padding: 0px 100px 100px 72px; 
+}
+
+.iconNames a {
+    text-decoration: none;  
+    color: #116500;
+    font-family: 'Offside', cursive;
+    font-weight: 400; 
+    font-size: 25px; 
+}
+
+/* BOTTOM INFO STYLES  */
+
+.info {
+    background-color: #213C28; 
+    padding: 40px 0px; 
+}
+
+.info h4 {
+    color: #FFF;
+    font-family: 'Offside', cursive;
+    font-weight: 400; 
+    font-size: 25px; 
+    padding-bottom: 0px; 
+    margin-bottom: 20px; 
+}
+
+.info p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400; 
+    font-size: 20px; 
+    line-height: 30px; 
+    color: #FFF; 
+    letter-spacing: 0.2px; 
+    margin: 0px;  
+}
+
+.subscribe,
+.contact {
+    float: left; 
+}
+
+.contact {
+    margin-left: 70px; 
+}
+
+.nav {
+    float: right; 
+    text-decoration: none;
+    list-style: none;
+    width: 15%; 
+}
+
+.nav li {
+    list-style: none;
+    text-align: right; 
+    margin: 10px 0px; 
+}
+
+.nav a {
+    color: #FFF;
+    font-family: 'Offside', cursive;
+    font-weight: 400; 
+    font-size: 25px; 
+    text-decoration: none; 
+}
+
+.subscribe {
+    width: 50%; 
+}
+
+.contact {
+    width: calc(35% - 70px); 
+}
+
+.subscribe button {
+    background: #2C2D2C;
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Offside', cursive;
+    font-weight: 400; 
+    font-size: 20px; 
+    line-height: 29px; 
+    padding: 7px 25px;  
+    border: none; 
+    margin-left: -4px; 
+}
+
+input[type=text] {
+  width: 70%;
+  padding: 7px 25px;
+  margin-top: 20px; 
+  border: none; 
+  font-family: 'Barlow', sans-serif; 
+  font-size: 20px; 
+  letter-spacing: 0.2px; 
+  outline: none; 
+}
+
+input[type=text]:focus {
+    border: none;  
+  }
+
+/* FOOTER STYLES  */
+
+.end {
+    background: #2C2D2C;
+    padding: 8px; 
+}
+
+footer {
+    text-align: center; 
+}
+
+footer p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400; 
+    font-size: 15px; 
+    line-height: 26px; 
+    color: #FFF; 
+    letter-spacing: 0.2px; 
+    margin: 0px;  
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFF; 
+}
+
+@media (max-width: 1024px) {
+    .collage {
+        float: none;
+        width: 100%; 
+    }
+
+    .marco {
+        margin: 0px; 
+        padding-left: 40px; 
+    }
+
+    .bbText {
+        margin-top: 0px; 
+    }
+
+    input[type=text] {
+        width: 60%;
+    }
+
+      .nav li {
+        margin: 20px 0px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .firstIcons li {
+        display: inline-block;
+        padding-left: 20px;
+    }
+
+    .gallery h2 {
+        font-size: 30px;
+    }
+
+    .park h3,
+    .collage h4 {
+        font-size: 30px; 
+        margin-top: 30px; 
+    }
+
+    .park p, 
+    .collage p {
+        font-size: 15px; 
+        line-height: 25px; 
+        margin-right: 0px; 
+        margin-bottom: 20px; 
+        margin-top: 2px; 
+    }
+
+    .button,
+    .buttonTwo,
+    .buttonThree {
+        font-size: 80%; 
+    }
+
+    .littleIcons li { 
+        padding: 50px 50px 0px 50px;
+    }
+
+    .iconNames li {
+        padding: 0px 50px 50px 35px;
+    }
+
+    .iconNames a {
+        font-size: 20px;
+    }
+    
+    .info h4,
+    .nav a {
+        font-size: 20px; 
+    }
+
+    .info p {
+        font-size: 15px; 
+    }
+
+    .nav li {
+        text-align: right; 
+    }
+
+    .contact {
+        margin-left: 30px; 
+        width: calc(30% - 25px);
+    }
+
+    .nav {
+        width: 17%; 
+    }
+
+    input[type=text] {
+        width: 60%;
+        font-size: 15px;
+        padding: 11px;
+    }
+
+    .info button {
+        font-size: 80%; 
+    }
+}
+
+@media (max-width: 360px) {
+    header nav {
+        display: none; 
+    }
+
+    i.fa-bars {
+        visibility: visible;
+        color: #FFF; 
+    }
+
+    .firstIcons li {
+        visibility: hidden;
+    }
+
+    h1 {
+        font-size: 30px; 
+        width: 80%; 
+        line-height: 38px;
+    }
+
+    .gallery li,
+    .aboutContentContainer,
+    .aboutImgContainer {
+        float: none;
+        width: 100%; 
+    }
+
+    .gallery h2 {
+        padding-top: 40px; 
+        margin-bottom: 0px; 
+    }
+
+    .park {
+        padding-bottom: 50px; 
+    }
+
+    .aboutContentContainer p {
+        text-align: center; 
+    }
+
+    .bbText,
+    .bobbyBella,
+    .happy,
+    .marco,
+    .subscribe,
+    .contact,
+    .nav {
+        float: none;
+        width: 100%; 
+    }
+    
+    .collage {
+        padding: 30px 0px; 
+    }
+    .collage h4 {
+        text-align: center; 
+        margin-top: 0px; 
+    }
+
+ 
+    .collage p {
+        text-align: center;
+        padding: 15px 0px; 
+    }
+    
+    .button,
+    .buttonTwo,
+    .buttonThree {
+        margin: 0px 100px;
+    }
+
+    .bobbyBella {
+        margin-top: 25px;
+    }
+
+    .marco {
+        padding: 0px; 
+    }
+
+    .bbText p {
+        margin-bottom: 0px; 
+    }
+
+    .littleIcons li { 
+        padding: 25px 25px 0px 25px;
+    }
+
+    .littleIcons a {
+            font-size: 30px;
+    }
+
+    .iconNames li {
+        padding: 0px 25px 25px 17px;
+    }
+
+    .iconNames a {
+        font-size: 11px;
+    }
+
+    .contact {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .nav {
+        display: none; 
+    }
+
+    .info {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+}

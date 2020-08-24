@@ -3,14 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./setup.css">
+    
     <title>Panda Sanctuary</title>
+    
+    <!-- link to google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Offside&display=swap" rel="stylesheet"> 
+    
+    <!-- link to stylesheet -->
+    <link rel="stylesheet" href="./setup.css">
+
+    <!-- link to font awesome -->
+    <script src="https://kit.fontawesome.com/6433d0aac0.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
-        <div class="wrapper">
+        <div class="top wrapper">
             <p>Panda Sanctuary</p>
-            <h1>A safe and loving place for all pandas</h1>
+            
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -19,87 +29,136 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
+            <i class="fa fa-bars"></i>
         </div>
 
-        <!-- IG ICON
-        FB ICON
-        SNAPCHAT ICON
-        TWITTER ICON -->
+        <div class="wrapper clearfix">
+            <h1>A safe and loving place for all pandas</h1>
+        </div>
+
+     
+        <ul class="firstIcons">
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-snapchat-ghost"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul>
     </header>
 
     <main>
-        <section class="friends wrapper">
-            <div>
+        <section class="gallery">
+            <div class="wrapper">
                 <h2>Our New Friends</h2>
             </div>
-            <div>
-                <img src="./Panda Sanctuary/assets/gallery-image-1@2x.png" alt="Panda Eating a Leaf">
-                <img src="./Panda Sanctuary/assets/gallery-image-2@2x.png" alt="Panda hanging out next to a tree trunk">
-                <img src="./Panda Sanctuary/assets/gallery-image-3@2x.png" alt="Two cute pandas hugging">
-            </div>
-
-            <div>
-                <img src="./Panda Sanctuary/assets/small-box@2x.png" alt="Panda monkeying around on a tree">
-            </div>
-
-            <div>
-                <h2>More about our park</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur similique et minima id aut, quaerat placeat quo nostrum obcaecati excepturi perspiciatis? Eligendi reprehenderit ducimus nostrum sunt laudantium odio saepe tempora, tenetur vitae in et deserunt provident veniam aspernatur hic, aut sequi quas quasi? Maxime cumque ipsum, et harum aperiam voluptates optio doloribus error magnam aliquid adipisci ut, in enim nulla reprehenderit aspernatur, obcaecati minus eligendi fugiat consequuntur molestias est recusandae? Corporis obcaecati reiciendis illum laboriosam tempora totam, cum deserunt minima sed quaerat autem eveniet architecto in, excepturi consequuntur doloribus debitis. Architecto aliquid laborum ad quis necessitatibus voluptas fugit nihil quod.</p>
-                <button><a href="#">READ MORE</a></button>
-            </div>
-        </section class="boxes wrapper">
-
-        <section class="collage wrapper">
-            <div>
-                <h2>Bobby and Bella</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi ut possimus earum consequatur voluptatum laudantium magnam quidem mollitia explicabo natus dicta numquam quae accusantium vero quo nemo hic adipisci praesentium tempora corrupti placeat, facere, beatae aliquid tempore? Voluptatem velit tenetur explicabo quod aut fuga nisi qui. Sequi esse vel unde.</p>
-                <button><a href="#">READ MORE</a></button>
-            </div>
-            <div>
-                <img src="./Panda Sanctuary/assets/image-2@2x.png" alt="Two pandas laying on tree trunks">
-            </div>
-
-            <div>
-                <img src="./Panda Sanctuary/assets/left-image@2x.png" alt="Marco the Panda holding a leaf in his mouth">
-                <h2>Look at Marco now</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi ut possimus earum consequatur voluptatum laudantium magnam quidem mollitia explicabo natus dicta numquam quae accusantium vero quo nemo hic adipisci praesentium tempora corrupti placeat, facere, beatae aliquid tempore? Voluptatem velit tenetur explicabo quod aut fuga nisi qui. Sequi esse vel unde.</p>
-                <button><a href="#">READ MORE</a></button>
-            </div>
-        </section>
-
-        <section class ="icons wrapper">
-            <span>Donations</span>
-            <span>Jobs</span>
-            <span>Events</span>
-        </section>
-
-        <section class="contact wrapper">
-            <div>
-                <h3>Stay updated</h3>
-                <p>Subscribe to our newsletter to stay updated.</p>
-                <button><a href="#">SUBSCRIBE</a></button>
-            </div>
-
-            <div>
-                <h3>Contact</h3>
-                <p>info@email.com 123-456-7890</p>
-                <p>123 some road, Toronto, ON</p>
-                <p>A5A 5A5, Canada</p>
-            </div>
-
-            <div>
-                <ul>
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">blog</a></li>
-                    <li><a href="#">contact</a></li>
+            <div class="wrapper">
+                <ul class="clearfix">
+                    <li><img src="./Panda_Sanctuary/assets/gallery-image-1@2x.png" alt="Panda Eating a Leaf"></li>
+                    <li><img src="./Panda_Sanctuary/assets/gallery-image-2@2x.png" alt="Panda hanging out next to a tree trunk"></li>
+                    <li><img src="./Panda_Sanctuary/assets/gallery-image-3@2x.png" alt="Two cute pandas hugging"></li>
                 </ul>
+            </div>
+
+            <div class="park">
+                <div class="wrapper clearfix">
+                    <div class="aboutImgContainer">
+                        <img src="./Panda_Sanctuary/assets/small-box@2x.png" alt="Panda monkeying around on a tree">
+                    </div>
+
+                    <div class="aboutContentContainer">
+                        <h3>More about our park</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur similique et minima id aut, quaerat placeat quo nostrum obcaecati excepturi perspiciatis? Eligendi reprehenderit ducimus nostrum sunt laudantium odio saepe tempora, tenetur vitae in et deserunt provident veniam aspernatur hic, aut sequi quas quasi? Maxime cumque ipsum, et harum aperiam voluptates optio doloribus error magnam.</p>
+                        <a class="button" href="#">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="collage"> 
+            <div class="wrapper">
+                <div class="bbText">
+                    <h4>Bobby and Bella</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi ut possimus earum consequatur voluptatum laudantium magnam quidem mollitia explicabo natus dicta numquam quae accusantium vero quo nemo hic adipisci praesentium.</p>
+                    <a class="buttonTwo" href="#">READ MORE</a>
+                </div>
+            </div>
+            <div class="bobbyBella clearfix">
+                <img src="./Panda_Sanctuary/assets/image-2@2x.png" alt="Two pandas laying on tree trunks">
+            </div>
+
+            <div class="clearfix">
+                <div class="happy">
+                    <img src="./Panda_Sanctuary/assets/left-image@2x.png" alt="Marco the Panda holding a leaf in his mouth">
+                </div>
+
+                <div class="wrapper">
+                    <div class="marco">
+                        <h4>Look at Marco now</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi ut possimus earum consequatur voluptatum laudantium magnam quidem mollitia explicabo natus dicta numquam quae accusantium.</p>
+                        <a class="buttonThree" href="#">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="icons">
+            <div class="littleIcons">
+                <div class="wrapper">
+                    <ul>
+                        <li><a href="#"><i class="fas fa-gift"></i></a></li>
+                        <li><a href="#"><i class="fas fa-briefcase"></i></a></li>
+                        <li><a href="#"><i class="fas fa-calendar-check"></i></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <ul class="iconNames">
+                    <li><a href="#">Donations</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Events</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="info clearfix">
+            <div class="wrapper">
+                <div class="subscribe">
+                    <h4>Stay updated</h4>
+                    <p>Subscribe to our newsletter to stay updated.</p>
+                    <form action="">
+                        <input type="text" name="emailAddress" id="emailAddress" required placeholder="email address">
+                        <button type="subscribe">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="contact">
+                    <h4>Contact</h4>
+                    <p>info@email.com 123-456-7890</p>
+                    <p>123 some road, Toronto, ON</p>
+                    <p>A5A 5A5, Canada</p>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="nav">
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </div>
             </div>
         </section>
     </main>
 
-    <footer class="wrapper">
-        <p>Copyright 2019 Juno College</p>
+    <footer class="end">
+        <div class="wrapper">
+            <p>Copyright <i class="far fa-copyright"></i> 2019 Juno College | Created at <a href="www.junocollege.com">Juno College</p>
+        </div>
     </footer>
+
 </body>
 </html>
